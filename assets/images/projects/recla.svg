@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Schéma synthétique : suivi des réclamations</title>
+  <desc id="d">Trois colonnes (reçu, vérifié, régularisé) avec un doublon signalé en rouge. Données fictives.</desc>
+  <defs>
+    <pattern id="tone" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1.6" cy="1.6" r="1" fill="#111315" fill-opacity=".16"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".7" stop-color="#000"/></linearGradient>
+    <mask id="m"><rect width="640" height="400" fill="url(#fade)"/></mask>
+  </defs>
+  <rect width="640" height="400" fill="#FAF9F4"/>
+  <rect width="640" height="400" fill="url(#tone)" mask="url(#m)"/>
+  <rect x="36" y="44" width="176" height="26" fill="#111315"/>
+  <text x="48" y="61" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#F2F0E8">REÇU</text>
+  <rect x="36" y="70" width="176" height="288" fill="#F2F0E8" stroke="#C7C2B7"/>
+  <rect x="232" y="44" width="176" height="26" fill="#111315"/>
+  <text x="244" y="61" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#F2F0E8">VÉRIFIÉ</text>
+  <rect x="232" y="70" width="176" height="288" fill="#F2F0E8" stroke="#C7C2B7"/>
+  <rect x="428" y="44" width="176" height="26" fill="#111315"/>
+  <text x="440" y="61" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#F2F0E8">RÉGULARISÉ</text>
+  <rect x="428" y="70" width="176" height="288" fill="#F2F0E8" stroke="#C7C2B7"/>
+  <rect x="46" y="86" width="156" height="54" fill="#FAF9F4" stroke="#111315" stroke-width="1.5"/>
+  <circle cx="62" cy="104" r="5" fill="#C7C2B7"/>
+  <rect x="76" y="99" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="76" y="113" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="56" y="126" width="60" height="5" fill="#C7C2B7"/>
+  <rect x="46" y="152" width="156" height="54" fill="#FAF9F4" stroke="#111315" stroke-width="1.5"/>
+  <circle cx="62" cy="170" r="5" fill="#C7C2B7"/>
+  <rect x="76" y="165" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="76" y="179" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="56" y="192" width="60" height="5" fill="#C7C2B7"/>
+  <rect x="46" y="218" width="156" height="54" fill="#FAF9F4" stroke="#111315" stroke-width="1.5"/>
+  <circle cx="62" cy="236" r="5" fill="#C7C2B7"/>
+  <rect x="76" y="231" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="76" y="245" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="56" y="258" width="60" height="5" fill="#C7C2B7"/>
+  <rect x="238" y="80" width="164" height="132" fill="none" stroke="#B91F24" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="242" y="86" width="156" height="54" fill="#FAF9F4" stroke="#B91F24" stroke-width="1.5"/>
+  <circle cx="258" cy="104" r="5" fill="#C7C2B7"/>
+  <rect x="272" y="99" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="272" y="113" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="252" y="126" width="60" height="5" fill="#C7C2B7"/>
+  <rect x="242" y="152" width="156" height="54" fill="#FAF9F4" stroke="#B91F24" stroke-width="1.5"/>
+  <circle cx="258" cy="170" r="5" fill="#C7C2B7"/>
+  <rect x="272" y="165" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="272" y="179" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="252" y="192" width="60" height="5" fill="#C7C2B7"/>
+  <circle cx="394" cy="156" r="10" fill="#B91F24"/>
+  <path d="M390 152 l8 8 M398 152 l-8 8" stroke="#fff" stroke-width="2.2"/>
+  <rect x="438" y="86" width="156" height="54" fill="#FAF9F4" stroke="#111315" stroke-width="1.5"/>
+  <circle cx="454" cy="104" r="5" fill="#C7C2B7"/>
+  <rect x="468" y="99" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="468" y="113" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="448" y="126" width="60" height="5" fill="#C7C2B7"/>
+  <circle cx="590" cy="90" r="10" fill="#285E50"/>
+  <path d="M585 90l4 4 7-8" fill="none" stroke="#fff" stroke-width="2.2"/>
+  <rect x="438" y="152" width="156" height="54" fill="#FAF9F4" stroke="#111315" stroke-width="1.5"/>
+  <circle cx="454" cy="170" r="5" fill="#C7C2B7"/>
+  <rect x="468" y="165" width="70" height="6" fill="#111315" fill-opacity=".8"/>
+  <rect x="468" y="179" width="100" height="5" fill="#C7C2B7"/>
+  <rect x="448" y="192" width="60" height="5" fill="#C7C2B7"/>
+  <circle cx="590" cy="156" r="10" fill="#285E50"/>
+  <path d="M585 156l4 4 7-8" fill="none" stroke="#fff" stroke-width="2.2"/>
+  <path d="M206 113h20" stroke="#285E50" stroke-width="2" fill="none"/>
+  <path d="M220 107l7 6-7 6" stroke="#285E50" stroke-width="2" fill="none"/>
+  <path d="M402 113h20" stroke="#285E50" stroke-width="2" fill="none"/>
+  <path d="M416 107l7 6-7 6" stroke="#285E50" stroke-width="2" fill="none"/>
+  <rect x="36" y="368" width="168" height="18" fill="#FAF9F4" stroke="#111315" stroke-width="1"/>
+  <text x="46" y="381" font-family="monospace" font-size="9.5" letter-spacing="1" fill="#111315">DONNÉES SYNTHÉTIQUES</text>
+</svg>
